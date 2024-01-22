@@ -34,7 +34,7 @@ body {
 }
 
 .nav a {
-    margin: 0 20px;
+    margin: 0 10px; /* Reduce margin for smaller screens */
     text-decoration: none;
     color: #FFF; /* White text color */
     font-weight: bold;
