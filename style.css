@@ -16,6 +16,9 @@ body {
     padding: 15px 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Fixed position */
+    top: 0; /* Positioned at the top */
+    z-index: 1000; /* Higher z-index to be above other elements */
 }
 
 .logo {
@@ -50,7 +53,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 80%; /* Set max-width to 80% of the viewport */
     width: 100%;
-    margin-top: 20px;
+    margin-top: 70px; /* Adjusted margin to account for the fixed header */
 }
 
 h1 {
@@ -102,5 +105,6 @@ button:hover {
 
     .container {
         max-width: 100%;
+        margin-top: 90px; /* Adjusted margin for smaller screens */
     }
 }
