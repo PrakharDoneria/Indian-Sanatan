@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Salsa', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -20,11 +20,16 @@ body {
 }
 
 .code-snippet {
-    background-color: #f8f8f8;
+    background-color: #272822; /* Dark background color */
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
     overflow-x: auto;
+}
+
+#codeSnippet {
+    font-family: 'JetBrains Mono', monospace;
+    color: #F8F8F2; /* Light text color */
 }
 
 button {
