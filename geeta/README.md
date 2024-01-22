@@ -32,7 +32,7 @@ The primary aim of the Bhagavad Gita API is to provide a digital platform for in
      "verse": "15",
      "orgverse": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते | ध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् || 2.15 ||",
      "translation": "Better than knowledge is meditation, and better than meditation is renunciation of the fruits of action, for by such renunciation one can attain peace of mind.",
-     "image": "https://example.com/verse-image.png"
+     "image": "verse-image.png"
    }
    ```
 
