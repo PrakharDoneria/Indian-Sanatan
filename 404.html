@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <style>
+        body {
+            font-family: 'Salsa', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFD700; /* Saffron color */
+            color: #272822; /* Dark text color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #272822; /* Dark text color */
+        }
+
+        p {
+            color: #555;
+        }
+
+        .quote {
+            font-style: italic;
+            margin: 10px 0;
+        }
+
+        .back-to-home {
+            margin-top: 20px;
+            text-decoration: none;
+            color: #4CAF50; /* Green color */
+            font-weight: bold;
+        }
+
+        .back-to-home:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="" alt="Hindu Deity" id="hinduImage">
+        </div>
+        <h1>404 - Page Not Found</h1>
+        <p>We apologize, but the page you are looking for might not exist or has been moved.</p>
+        <p class="quote" id="quote"></p>
+        <a href="/" class="back-to-home">Back to Home</a>
+    </div>
+
+    <script>
+        // Array of quotes related to Hinduism ADD MORE IF YOU WANT
+        const quotes = [
+            "The mind is everything. What you think, you become. - Buddha",
+            "The soul is neither born, and nor does it die. - Bhagavad Gita",
+            "The power of God is with you at all times; through the activities of mind, senses, breathing, and emotions; and is constantly doing all the work using you as a mere instrument. - Bhagavad Gita",
+          "Whenever there is a decline in righteousness and an increase in unrighteousness, at that time I manifest myself on earth. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
+          "Aham Brahmasmi: This phrase emphasizes the divine nature within each individual, highlighting the interconnectedness of all existence.",
+          "Tat Tvam Asi: This phrase from the Upanishads signifies the oneness of the individual soul (Atman) with the universal soul (Brahman), emphasizing the unity of all existence.",
+        ];
+
+        // Array of image URLs related to Hindu gods
+        const godImages = [
+            "https://raw.githubusercontent.com/PrakharDoneria/Indian-Sanatan/main/assets/img1.png",
+            "https://raw.githubusercontent.com/PrakharDoneria/Indian-Sanatan/main/assets/img2.png",
+            "https://raw.githubusercontent.com/PrakharDoneria/Indian-Sanatan/main/assets/img3.png",
+            // ADD MORE AI GENERATED IMAGES IF YOU WANT BUT SHOULD NOT NE UNDER COPYRIGHT 
+        ];
+
+        // Function to get a random element from an array
+        const getRandomElement = (array) => array[Math.floor(Math.random() * array.length)];
+
+        // Set a random quote and image when the page loads
+        document.getElementById('quote').innerText = getRandomElement(quotes);
+        document.getElementById('hinduImage').src = getRandomElement(godImages);
+    </script>
+</body>
+</html>
