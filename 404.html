@@ -24,6 +24,19 @@
 
         .image-container {
             margin-bottom: 20px;
+            /* Add circular styling to the image container */
+            overflow: hidden;
+            border-radius: 50%;
+            width: 150px; /* Adjust the width and height as needed */
+            height: 150px;
+            border: 2px solid #4CAF50; /* Green color */
+        }
+
+        #hinduImage {
+            /* Ensure the image takes up the full container */
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
         }
 
         h1 {
@@ -37,6 +50,7 @@
         .quote {
             font-style: italic;
             margin: 10px 0;
+            color: #4CAF50; /* Green color */
         }
 
         .back-to-home {
@@ -63,17 +77,15 @@
     </div>
 
     <script>
-        // Array of quotes related to Hinduism ADD MORE IF YOU WANT
         const quotes = [
             "The mind is everything. What you think, you become. - Buddha",
             "The soul is neither born, and nor does it die. - Bhagavad Gita",
             "The power of God is with you at all times; through the activities of mind, senses, breathing, and emotions; and is constantly doing all the work using you as a mere instrument. - Bhagavad Gita",
-          "Whenever there is a decline in righteousness and an increase in unrighteousness, at that time I manifest myself on earth. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
-          "Aham Brahmasmi: This phrase emphasizes the divine nature within each individual, highlighting the interconnectedness of all existence.",
-          "Tat Tvam Asi: This phrase from the Upanishads signifies the oneness of the individual soul (Atman) with the universal soul (Brahman), emphasizing the unity of all existence.",
+            "Whenever there is a decline in righteousness and an increase in unrighteousness, at that time I manifest myself on earth. To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma, I appear millennium after millennium.",
+            "Aham Brahmasmi: This phrase emphasizes the divine nature within each individual, highlighting the interconnectedness of all existence.",
+            "Tat Tvam Asi: This phrase from the Upanishads signifies the oneness of the individual soul (Atman) with the universal soul (Brahman), emphasizing the unity of all existence.",
         ];
 
-        // Array of image URLs related to Hindu gods
         const godImages = [
             "https://raw.githubusercontent.com/PrakharDoneria/Indian-Sanatan/main/assets/img1.png",
             "https://storage.googleapis.com/pai-images/000324ba27414a408b337cf37b309869.png",
@@ -81,10 +93,8 @@
             // ADD MORE AI GENERATED IMAGES IF YOU WANT BUT SHOULD NOT NE UNDER COPYRIGHT 
         ];
 
-        // Function to get a random element from an array
         const getRandomElement = (array) => array[Math.floor(Math.random() * array.length)];
 
-        // Set a random quote and image when the page loads
         document.getElementById('quote').innerText = getRandomElement(quotes);
         document.getElementById('hinduImage').src = getRandomElement(godImages);
     </script>
