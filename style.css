@@ -30,11 +30,12 @@ body {
 .nav {
     display: flex;
     justify-content: center;
+    align-items: center; /* Center the navigation links vertically */
     margin-top: 10px;
 }
 
 .nav a {
-    margin: 0 10px; /* Reduce margin for smaller screens */
+    margin: 0 10px; /* Adjusted margin */
     text-decoration: none;
     color: #FFF; /* White text color */
     font-weight: bold;
@@ -96,12 +97,13 @@ button:hover {
 /* Media Query for smaller screens */
 @media screen and (max-width: 600px) {
     .nav {
-        flex-direction: column;
-        align-items: center; /* Center the navigation links */
+        flex-direction: row; /* Display links horizontally on smaller screens */
+        flex-wrap: wrap; /* Allow wrapping if there's not enough space */
+        justify-content: space-around; /* Distribute space evenly between links */
     }
 
     .nav a {
-        margin: 10px 0;
+        margin: 10px 0; /* Adjusted margin */
     }
 
     .container {
