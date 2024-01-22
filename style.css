@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Salsa', sans-serif;
     margin: 0;
@@ -11,6 +12,7 @@ body {
     min-height: 100vh;
 }
 
+/* Header Styles */
 .header {
     background-color: #FFA500; /* Orange color */
     padding: 15px 10px; /* Adjusted padding */
@@ -21,12 +23,14 @@ body {
     z-index: 1000; /* Higher z-index to be above other elements */
 }
 
+/* Logo Styles */
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #FFF; /* White text color */
 }
 
+/* Navigation Styles */
 .nav {
     display: flex;
     justify-content: center;
@@ -46,6 +50,7 @@ body {
     color: #4CAF50; /* Hover color */
 }
 
+/* Container Styles */
 .container {
     text-align: center;
     padding: 20px;
@@ -57,15 +62,18 @@ body {
     margin-top: 70px; /* Adjusted margin to account for the fixed header */
 }
 
+/* Heading Styles */
 h1 {
     color: #272822; /* Dark text color */
 }
 
+/* Note Styles */
 .note {
     font-style: italic;
     color: #555;
 }
 
+/* Code Snippet Styles */
 .code-snippet {
     background-color: #272822; /* Dark background color */
     border-radius: 5px;
@@ -79,6 +87,7 @@ h1 {
     color: #F8F8F2; /* Light text color */
 }
 
+/* Button Styles */
 button {
     margin-top: 10px;
     padding: 8px 16px;
@@ -111,4 +120,15 @@ button:hover {
         margin-top: 90px; /* Adjusted margin for smaller screens */
         padding: 10px; /* Adjusted padding */
     }
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-note {
+    font-size: 12px;
+    color: #555;
 }
