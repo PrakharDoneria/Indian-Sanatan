@@ -36,10 +36,26 @@ The primary aim of the Bhagavad Gita API is to provide a digital platform for in
    }
    ```
 
+4. **Contribution:**
+We welcome contributions to enhance and improve the Bhagavad Gita API. Here's how you can contribute:
+
+### Report Issues:
+
+If you encounter any bugs or issues, please create a new issue on our GitHub repository.
+### Feature Requests:
+
+Suggest new features or improvements by creating a feature request.
+### Code Contributions:
+
+Fork the repository, make changes, and submit a pull request. Follow the contribution guidelines for a smooth process.
+### Spread the Word:
+
+Share the Bhagavad Gita API with your network and help us reach a broader audience.
+
 ### Note
 
 This API is intended for educational and spiritual purposes. Sanatan Bharat encourages users to explore the teachings of the Bhagavad Gita and apply its wisdom in their lives.
 
-For any inquiries or support, please contact [your contact details].
+For any inquiries or support, please contact prakhardoneria3@gmail.com .
 
 © 2024 Sanatan Bharat.
