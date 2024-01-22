@@ -48,7 +48,7 @@ body {
     background-color: #FFF; /* White background */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+    max-width: 80%; /* Set max-width to 80% of the viewport */
     width: 100%;
     margin-top: 20px;
 }
@@ -88,4 +88,19 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav a {
+        margin: 10px 0;
+    }
+
+    .container {
+        max-width: 100%;
+    }
 }
