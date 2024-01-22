@@ -13,7 +13,7 @@ body {
 
 .header {
     background-color: #FFA500; /* Orange color */
-    padding: 15px 0;
+    padding: 15px 10px; /* Adjusted padding */
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: fixed; /* Fixed position */
@@ -97,6 +97,7 @@ button:hover {
 @media screen and (max-width: 600px) {
     .nav {
         flex-direction: column;
+        align-items: center; /* Center the navigation links */
     }
 
     .nav a {
@@ -106,5 +107,6 @@ button:hover {
     .container {
         max-width: 100%;
         margin-top: 90px; /* Adjusted margin for smaller screens */
+        padding: 10px; /* Adjusted padding */
     }
 }
